@@ -6,7 +6,7 @@ import AnimatedSection from '@/app/components/AnimatedSection';
 export const metadata: Metadata = {
   title: 'Investimentos Imobiliários | Blueview Imóveis',
   description:
-    'Cadastre-se e receba oportunidades exclusivas de investimento imobiliário de alto padrão em Itapema e região.',
+    'Cadastre-se e receba oportunidades exclusivas de investimento imobiliário de alto padrão em Balneário Camboriú e região.',
 };
 
 const benefits = [
@@ -26,7 +26,7 @@ const benefits = [
     icon: MapPin,
     title: 'Localização Estratégica',
     description:
-      'Itapema e região concentram infraestrutura de alto padrão, acesso privilegiado ao mar e alta demanda por locação de temporada.',
+      'Balneário Camboriú e região concentram infraestrutura de alto padrão, acesso privilegiado ao mar e alta demanda por locação de temporada.',
   },
   {
     icon: Users,
@@ -65,7 +65,7 @@ export default function InvestirPage() {
               Invista em imóveis de alto padrão no litoral catarinense
             </h1>
             <p className="text-lg text-white/85 max-w-2xl mx-auto">
-              Itapema e região estão entre as regiões com maior valorização
+              Balneário Camboriú e região estão entre as regiões com maior valorização
               imobiliária do Brasil. Cadastre-se e receba oportunidades antes de chegarem ao mercado.
             </p>
           </AnimatedSection>
