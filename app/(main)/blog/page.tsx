@@ -4,7 +4,7 @@ import BlogCard from '@/app/components/BlogCard';
 
 export const metadata: Metadata = {
   title: 'Blog | Blueview Imóveis',
-  description: 'Conteúdo sobre o mercado imobiliário de Itapema e região. Tendências, análises e oportunidades exclusivas.',
+  description: 'Conteúdo sobre o mercado imobiliário de Balneário Camboriú e região. Tendências, análises e oportunidades exclusivas.',
 };
 
 interface PageProps {
@@ -43,7 +43,7 @@ export default async function BlogPage({ searchParams }: PageProps) {
 
         {posts.length === 0 ? (
           <div className="text-center py-20">
-            <p className="text-gray-400 text-lg">Em breve, conteúdo exclusivo sobre o mercado imobiliário de Itapema e região.</p>
+            <p className="text-gray-400 text-lg">Em breve, conteúdo exclusivo sobre o mercado imobiliário de Balneário Camboriú e região.</p>
           </div>
         ) : (
           <>
