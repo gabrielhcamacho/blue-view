@@ -79,10 +79,9 @@ export default async function HomePage() {
             // style={{ fontSize: 'clamp(4rem, 7vw, 7rem)', textShadow: '0 2px 30px rgba(0,0,0,0.4)' }}
             style={{ fontSize: 'clamp(4rem, 7vw, 7rem)'}}
           >
-            <div>ALTO</div>
-            <div>PADRÃO</div>
-            <div>É O SEU</div>
-            <div>PADRÃO</div>
+            <div>O MAR</div>
+            <div>À SUA</div>
+            <div>PORTA</div>
           </div>
         </div>
       </section>
